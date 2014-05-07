@@ -1,0 +1,23 @@
+{
+    "name": "csnemeth79/locasyncforlaravel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gabor.Szecsi, Csaba.Nemeth",
+            "email": "info@mirrorsoft.hu"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Csnemeth79\\Locasyncforlaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
